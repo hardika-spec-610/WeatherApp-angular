@@ -1,0 +1,38 @@
+.card-style {
+  border-width: 0;
+  max-width: 450px;
+  border-radius: 18px;
+  box-shadow: var(--shadow-dark);
+}
+
+.card-img-top {
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+}
+.weather-data {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: rgba(255, 255, 255, 0.9);
+}
+.location {
+  font-size: 20px !important;
+}
+.temperature {
+  font-size: 45px;
+  font-weight: 600;
+}
+.card-body {
+  background-color: var(--blue-2);
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+}
+.icon-style {
+  width: 30px;
+}
